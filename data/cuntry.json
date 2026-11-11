@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "name": "France",
+    "countryCode": "FR",
+    "flagUrl": "https://flagcdn.com/w160/fr.png",
+    "channelsCount": 6
+  },
+  {
+    "id": "2",
+    "name": "Maroc",
+    "countryCode": "MA",
+    "flagUrl": "https://flagcdn.com/w160/ma.png",
+    "channelsCount": 4
+  },
+  {
+    "id": "3",
+    "name": "États-Unis",
+    "countryCode": "US",
+    "flagUrl": "https://flagcdn.com/w160/us.png",
+    "channelsCount": 3
+  },
+  {
+    "id": "4",
+    "name": "Royaume-Uni",
+    "countryCode": "GB",
+    "flagUrl": "https://flagcdn.com/w160/gb.png",
+    "channelsCount": 2
+  },
+  {
+    "id": "5",
+    "name": "Espagne",
+    "countryCode": "ES",
+    "flagUrl": "https://flagcdn.com/w160/es.png",
+    "channelsCount": 2
+  },
+  {
+    "id": "6",
+    "name": "Allemagne",
+    "countryCode": "DE",
+    "flagUrl": "https://flagcdn.com/w160/de.png",
+    "channelsCount": 1
+  },
+  {
+    "id": "7",
+    "name": "Qatar",
+    "countryCode": "QA",
+    "flagUrl": "https://flagcdn.com/w160/qa.png",
+    "channelsCount": 1
+  },
+  {
+    "id": "8",
+    "name": "Arabie Saoudite",
+    "countryCode": "SA",
+    "flagUrl": "https://flagcdn.com/w160/sa.png",
+    "channelsCount": 1
+  }
+]
