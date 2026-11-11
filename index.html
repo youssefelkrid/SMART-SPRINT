@@ -1,11 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>YOUSEF TV </title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script type="module" src="/SMART-SPRINT/src/main.js" defer></script>
 </head>
+
 <body>
-    
+
+    <div class="flex min-h-screen bg-[#0e1116] text-white">
+
+
+        <aside class=" w-[260px] bg-[#080b0e] p-4  border border-r-amber-600">
+
+
+
+            <div class="flex items-center gap-3">
+
+                <div class="w-10 h-10 flex items-center justify-center">
+                    <img src="img/smart-tv.png" alt="">
+
+                </div>
+
+                <div>
+                    <h1 class="font-bold text-lg">SMART STREAM</h1>
+                    <p class="text-gray-500 text-[9px] tracking-[3px]">
+                        LA TÉLÉ EN MOUVEMENT
+                    </p>
+
+                </div>
+
+
+            </div>
+            <div class="flex">
+                <img class="w-7" src="img/chercher (1).png" alt="">
+                <input id="search" type="text" placeholder="chercher les catigorie"
+                    class="flex-1 bg-[#080b0e]  p-2 rounded-lg outline-none text-sm mt-4 ">
+            </div>
+            <!-- ////////////////////////////////////================================= -->
+             <div id="cards">
+        
+             </div>
+        </aside>
+        <aside class="w-[260px] bg-[#080b0e] p-4 ">
+
+
+
+            <div class="flex items-center gap-3">
+
+                <div class="w-10 h-10 flex items-center justify-center">
+                    <img src="img/televiseur-intelligent (1).png" alt="">
+
+
+                </div>
+
+
+                <div>
+                    <h1 class="font-bold text-lg">chaînes disponibles</h1>
+                    <p class="text-gray-500 text-[9px] tracking-[3px]">
+                        LA TÉLÉ EN MOUVEMENT
+                    </p>
+
+                </div>
+
+            </div>
+            <div class="flex">
+                <img class="w-7" src="img/chercher (1).png" alt="">
+                <input id="search-ch" type="text" placeholder="chercher les chaînes"
+                    class="flex-1 bg-[#080b0e]  p-2 rounded-lg outline-none text-sm mt-4 ">
+            </div>
+            <div id="chanls">
+             
+             </div>
+
+
+        </aside>
+
+
+        <main class="flex-1 p-6">
+            <section id="player" class="w-full">
+                <div
+                    class="w-full aspect-video bg-black rounded-2xl border border-gray-800 flex items-center justify-center">
+                    <div class="text-center">
+                        <h2 class="text-white text-xl font-bold">
+                            serveur not fuound
+                        </h2>
+                        <p class="text-gray-500 text-sm mt-2">
+
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+            <section id="edg" class="mt-6 bg-[#171b20] border border-gray-800 pb-4">
+                <h2 class="text-white text-lg font-bold mb-4">
+                    programme tv
+                </h2>
+                <h3 class="text-white font-semibold">
+                    Aucune chaine selectionnee
+                </h3>
+                <p class="text-gray-500 text-sm mt-1">
+                    Sélectionnez une chaîne pour voir son programme
+                </p>
+            </section>
+
+        </main>
+
+    </div>
+
+
 </body>
+
 </html>
