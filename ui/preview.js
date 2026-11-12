@@ -10,7 +10,7 @@ export function showcountries(data) {
 
     data.forEach(c => {
         cards.innerHTML += `
-       <div id="card"  class="flex items-center gap-3 p-3 bg-[#171b20] rounded-xl border border-[#252a30] hover:bg-[#20252b] transition cursor-pointer">
+       <div id="card"  data-id="${c.id}"  class="flex items-center gap-3 p-3 bg-[#171b20] rounded-xl border border-[#252a30] hover:bg-[#20252b] transition cursor-pointer">
                  
                 <img src="${c.flagUrl}" alt="countriesimgs" class="w-12 h-12 object-contain bg-white rounded-lg p-1">
 
@@ -40,6 +40,7 @@ export function showcountries(data) {
 export function showcanals(chines){
    
        chanls.innerHTML = "";
+
     chines.forEach(ch =>{
         chanls.innerHTML +=`
           <div id="cardes"  class="flex items-center gap-3 p-3 bg-[#171b20] rounded-xl border border-[#252a30] hover:bg-[#20252b] transition cursor-pointer">
