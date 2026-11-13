@@ -1,3 +1,5 @@
+import { getepg } from "./preview.js";
+
 const full_scren = document.getElementById("screen");
 const chines = document.getElementById("chanls");
 const canal = JSON.parse(localStorage.getItem("channls"));
@@ -15,6 +17,7 @@ export function getphoto() {
                 <img src=" ${affichier[0].logo}"  alt="countriesimgs" class="w-full h-full  bg-white rounded-lg p-1">
                      
             `
+            getepg(affichier[0])
              
     });
       

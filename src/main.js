@@ -12,7 +12,7 @@ getchanls()
 getinput();
 exportchaine();
 getphoto();
-getepg(chines);
+//  getepg(chines);
 
  
 showcountries(countries);
