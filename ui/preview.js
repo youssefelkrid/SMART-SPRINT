@@ -1,9 +1,10 @@
 
 let countries = JSON.parse(localStorage.getItem("cuntry"));
-let chines = JSON.parse(localStorage.getItem("channls"))
+   let chines = JSON.parse(localStorage.getItem("channls"))
 const cards = document.querySelector("#cards");
  const chanls = document.querySelector("#chanls");
  const epgs = document.getElementById("epg");
+
 
 export function showcountries(data) {
 
@@ -38,11 +39,10 @@ export function showcountries(data) {
     });
 }
 
-export function showcanals(chines){
-   
+export function showcanals(chine){
        chanls.innerHTML = "";
 
-    chines.forEach(ch =>{
+    chine.forEach(ch =>{
         chanls.innerHTML +=`
           <div id="cardes" chine-id = ${ch.id}  class="flex items-center gap-3 p-3 bg-[#171b20] rounded-xl border border-[#252a30] hover:bg-[#20252b] transition cursor-pointer">
                  
@@ -68,16 +68,17 @@ export function showcanals(chines){
           
            
         `
-
+       
+;
 
 
 
     })
 }
-  export function getepg(epg){
+  
+ export function getepg(ep){
     epgs.innerHTML = "";
-    epg.forEach(ep =>{
-
+    
        epgs.innerHTML += `
             <h2 class="text-white text-lg font-bold mb-4">
                     ${ep.epg.currentProgram};
@@ -89,6 +90,7 @@ export function showcanals(chines){
                         ${ep.epg.progressPercentage}
                 </p>
        `
-    });
-
+    
   };
+
+  
